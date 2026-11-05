@@ -1,6 +1,6 @@
 cask "orbit" do
   version "0.1.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "d2276cad84bc01ac939fff64140cddf411fc361b0c0657e913424462702571c0"
 
   url "https://github.com/jeanmenezesmagalhaes/homebrew-orbit/releases/download/v#{version}/Orbit-#{version}.zip"
   name "Orbit"

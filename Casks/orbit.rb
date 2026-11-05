@@ -4,7 +4,7 @@ cask "orbit" do
 
   url "https://github.com/jeanmenezesmagalhaes/homebrew-orbit/releases/download/v#{version}/Orbit-#{version}.zip"
   name "Orbit"
-  desc "E-mail, calendário e assistente de IA num app nativo para Mac"
+  desc "E-mail, calendário e assistente de IA num app nativo"
   homepage "https://github.com/jeanmenezesmagalhaes/homebrew-orbit"
 
   livecheck do
@@ -13,7 +13,7 @@ cask "orbit" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Orbit.app"
 
